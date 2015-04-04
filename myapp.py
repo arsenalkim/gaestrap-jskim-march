@@ -28,9 +28,9 @@ class Homepage(MyAppHandler):
     def get(self):
         self.render('index.html')
 
-class Team(MyAppHandler):
+class Match(MyAppHandler):
     def get(self):
-        self.render("portfolio.html")
+        self.render("match.html")
 
 class Players(MyAppHandler):
     def get(self):
@@ -42,7 +42,7 @@ class Schedule(MyAppHandler):
 
 
 app = webapp2.WSGIApplication([('/', Homepage),                              
-								('/team', Team),
+								('/match', Match),
 								('/players', Players),
 								('/schedule', Schedule),
                                ],

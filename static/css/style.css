@@ -1,0 +1,32 @@
+.service-wrapper {
+	background: #F8F8EB;
+	margin: 5px;
+	text-align: center;
+	padding: 20px 10px;
+	border-radius: 5px;
+}
+
+.well {
+	background: #474747;
+	color: #fff;
+}
+
+/* unvisited link */
+a:link {
+    color: #000;
+}
+
+/* visited link */
+a:visited {
+    color: #000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #464644;
+}
+
+/* selected link */
+a:active {
+    color: #464644;
+}
